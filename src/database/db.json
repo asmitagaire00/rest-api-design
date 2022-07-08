@@ -1,4 +1,25 @@
 {
+  "2": {
+    "id": "d8be2362-7b68-4ea4-a1f6-03f8bc4eede7",
+    "name": "Heavy Heavy Heavy",
+    "mode": "5 Rounds For Time",
+    "equipment": [
+      "barbell",
+      "rope"
+    ],
+    "exercises": [
+      "12 deadlifts",
+      "9 hang power cleans",
+      "6 push jerks"
+    ],
+    "createdAt": "11/20/2021, 5:39:07 PM",
+    "updatedAt": "7/8/2022, 11:30:55 AM",
+    "trainerTips": [
+      "Aim for unbroken push jerks",
+      "The first three rounds might feel terrible, but stick to it",
+      "RX Weights: 205lb/145lb"
+    ]
+  },
   "workouts": [
     {
       "id": "61dbae02-c147-4e28-863c-db7bd402b2d6",
