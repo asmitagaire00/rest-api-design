@@ -2,6 +2,29 @@ const DB = require("./db.json");
 
 const { saveToDatabase } = require("./utlis");
 
+/**
+ * @openapi
+ * /api/v1/workouts:
+ *   get:
+ *     tags:
+ *       - Workouts
+ *     responses:
+ *       200:
+ *         description: OK
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: string
+ *                   example: OK
+ *                 data:
+ *                   type: array
+ *                   items:
+ *                     $ref: "#/components/schemas/Workout"
+ */
+
 const getAllWorkout = (filterParams) => {
   try {
     let workouts = DB.workouts;
