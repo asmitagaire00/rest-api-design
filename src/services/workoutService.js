@@ -2,9 +2,9 @@ const Workouts = require("../database/Workout");
 
 const { v4: uuid } = require("uuid");
 
-const getAllWorkout = () => {
+const getAllWorkout = (filterParams) => {
   try {
-    const allWorkouts = Workouts.getAllWorkout();
+    const allWorkouts = Workouts.getAllWorkout(filterParams);
     return allWorkouts;
   } catch (error) {
     throw error;
